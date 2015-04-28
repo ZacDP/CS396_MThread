@@ -23,27 +23,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Thread_A.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Thread_A.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5" vertical-offset="172" max-vertical-offset="476">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state vertical-scroll-proportion="-3.508772" vertical-offset="140" max-vertical-offset="476">
+              <caret line="20" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixMultiplication.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MatrixMultiplication.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MatrixMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="1615">
-              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.3323077" vertical-offset="1303" max-vertical-offset="1734">
+              <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
               <folding>
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#3268#3269#0" expanded="true" />
+                <element signature="e#3302#3303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +59,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MatrixMultiplication.java" />
         <option value="$PROJECT_DIR$/src/Thread_A.java" />
+        <option value="$PROJECT_DIR$/src/MatrixMultiplication.java" />
       </list>
     </option>
   </component>
@@ -69,6 +69,25 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -357,7 +376,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -376,7 +395,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44496855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,14 +421,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MatrixMultiplication.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
@@ -418,24 +429,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MatrixMultiplication.java">
+    <entry file="file://$PROJECT_DIR$/src/Thread_A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="1615">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.508772" vertical-offset="140" max-vertical-offset="476">
+          <caret line="20" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_A.java">
+    <entry file="file://$PROJECT_DIR$/src/MatrixMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="172" max-vertical-offset="476">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.3323077" vertical-offset="1303" max-vertical-offset="1734">
+          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
           <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#3268#3269#0" expanded="true" />
+            <element signature="e#3302#3303#0" expanded="true" />
           </folding>
         </state>
       </provider>

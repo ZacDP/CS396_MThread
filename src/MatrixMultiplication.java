@@ -4,19 +4,23 @@ import java.util.Scanner;
  * Created by Zac on 4/28/2015.
  */
 public class MatrixMultiplication {
-
+//INITIALIZATION
     private static int[][] first;
     private static int[][] second;
 
     public static void main(String args[])
     {
         int m, n, p, q, sum = 0, c, d, k;
-
+//==========================================================================================
+//ROWS FIRST MATRIX
+//==========================================================================================
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number of rows and columns of first matrix");
         m = in.nextInt();
         n = in.nextInt();
-
+//==========================================================================================
+// GET FIRST MATRIX DATA
+//==========================================================================================
         first = new int[m][n];
 
         System.out.println("Enter the elements of first matrix");
@@ -24,7 +28,9 @@ public class MatrixMultiplication {
         for ( c = 0 ; c < m ; c++ )
             for ( d = 0 ; d < n ; d++ )
                 first[c][d] = in.nextInt();
-
+//==========================================================================================
+//ROWS FOR SECOND MATRIX
+//==========================================================================================
         System.out.println("Enter the number of rows and columns of second matrix");
         p = in.nextInt();
         q = in.nextInt();
@@ -35,15 +41,17 @@ public class MatrixMultiplication {
         {
             int second[][] = new int[p][q];
             int multiply[][] = new int[m][q];
-
+//==========================================================================================
+//GET SECOND MATRIX DATA
+//==========================================================================================
             System.out.println("Enter the elements of second matrix");
 
             for ( c = 0 ; c < p ; c++ )
                 for ( d = 0 ; d < q ; d++ )
                     second[c][d] = in.nextInt();
-
-
-
+//==========================================================================================
+// ALL THE MATH HAPPENS HERE.
+//==========================================================================================
             for ( c = 0 ; c < m ; c++ )
             {
                 for ( d = 0 ; d < q ; d++ )
@@ -51,16 +59,15 @@ public class MatrixMultiplication {
                     for ( k = 0 ; k < p ; k++ )
                     {
                         sum = sum + first[c][k]*second[k][d];
-                        if (k == 0){
-                            //TODO create a new thread
-                        }
                     }
 
                     multiply[c][d] = sum;
                     sum = 0;
                 }
             }
-
+//==========================================================================================
+// OUTPUT
+//==========================================================================================
             System.out.println("Product of entered matrices:-");
 
             for ( c = 0 ; c < m ; c++ )
@@ -81,7 +88,7 @@ public class MatrixMultiplication {
         public void run() {
             //TODO awesomeness here.
             for (int i = 0; i < k ; i++) {
-                //first[k][i] * second[i][k];
+                first[k][i] * second[i][k];
             }
             System.out.println("Exit from A");
         }
